@@ -3,3 +3,6 @@ age: 20
 active: true
 keys:
   secretkey: 334uyhfud6f83hpqe7923hls
+  key: val
+  key2: val2
+  key3: val3
