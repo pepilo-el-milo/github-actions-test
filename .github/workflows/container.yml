@@ -15,6 +15,6 @@ jobs:
           - "27017:27017"
     steps: 
       - name: POST a user
-        run: "curl -x POST http://localhost:3001/api/user -H 'Content-Type: application/json' -d '{\"username\" :\"hello\", \"address\": \"hddskfh\"}'"
+        run: "curl -X POST http://localhost:3001/api/user -H 'Content-Type: application/json' -d '{\"username\" :\"hello\", \"address\": \"hddskfh\"}'"
       - name: GET users
         run: curl http://localhost:3001/api/user
